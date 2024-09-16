@@ -2,7 +2,7 @@
 LPSOPG VIRUSES
 Using the sandbox, I found that his loader created two executable files, and then closed ![image](https://github.com/user-attachments/assets/95d55c01-838e-4e5f-a72e-76d85a6da77c)
 If earlier the old loader just dropped the Vac Bypass.exe and the miner, now the "new" loader has slightly changed the content that drops to the user 
-![image](https://github.com/user-attachments/assets/f3dbef7f-b1ec-4ee9-b4ce-4cde3d9d8745)
+![image](https://github.com/user-attachments/assets/a9e3d877-0a12-4a19-88c1-1c407fd71276)
 Let's analyze the role of each of the processes
 1. cli_gui.exe - An ordinary loader that weighs absolutely nothing, for some reason has a primitive debugger check and generally plays the role of an LLA injector with the NtOpenFile patch.
 ![image](https://github.com/user-attachments/assets/f9a68ef0-c40d-4828-ad68-61d563937898)
